@@ -1,0 +1,90 @@
+Jersey OCR results:
+Track 2 -> jersey 10 (10:10.54, 9:1.00)
+Track 3 -> jersey 9 (9:23.17, 6:5.66, 10:5.50)
+Track 4 -> jersey 4 (4:3.91)
+Track 5 -> jersey 12 (12:5.92)
+Track 7: no valid jersey number recognized
+Track 8 -> jersey 6 (6:23.86)
+Track 18 -> jersey 9 (9:16.86, 10:0.95)
+Track 40 -> jersey 6 (6:21.94)
+Track 47 -> jersey 6 (6:3.52)
+Track 57 -> jersey 4 (4:9.00)
+Track 59: no valid jersey number recognized
+Track 65 -> jersey 6 (6:15.43)
+Track 74 -> jersey 12 (12:10.45, 10:1.48)
+Track 84 -> jersey 12 (12:14.98)
+Track 138 -> jersey 10 (10:9.15, 9:1.00, 6:0.98)
+Track 139 -> jersey 4 (4:3.59, 6:1.00)
+Track 145 -> jersey 9 (9:9.86, 4:2.07, 10:0.41, 12:0.14)
+Track 157 -> jersey 11 (11:0.38)
+Track 172: no valid jersey number recognized
+Track 179 -> jersey 11 (11:0.59)
+Track 187 -> jersey 12 (12:13.91)
+Track 198: no valid jersey number recognized
+Track 228 -> jersey 4 (4:3.00)
+
+Team-cluster assignment:
+Track 2 -> cluster 0
+Track 3 -> cluster 1
+Track 4 -> cluster 0
+Track 5 -> cluster 0
+Track 7 -> cluster 1
+Track 8 -> cluster 1
+Track 18 -> cluster 1
+Track 40 -> cluster 1
+Track 47 -> cluster 0
+Track 57 -> cluster 0
+Track 59 -> cluster 1
+Track 65 -> cluster 1
+Track 74 -> cluster 0
+Track 84 -> cluster 0
+Track 138 -> cluster 0
+Track 139 -> cluster 0
+Track 145 -> cluster 1
+Track 157 -> cluster 1
+Track 172 -> cluster 1
+Track 179 -> cluster 1
+Track 187 -> cluster 0
+Track 198 -> cluster 1
+Track 228 -> cluster 0
+
+Initial team anchors:
+Frame 1: Track 2 -> initial offense -> Team A
+Frame 1: Track 3 -> initial defense -> Team B
+
+Cluster-to-team mapping:
+Cluster 0 -> Team A
+Cluster 1 -> Team B
+
+Tracklet identities:
+Track 2 -> A10
+Track 3 -> B9
+Track 4 -> A4
+Track 5 -> A12
+Track 8 -> B6
+Track 18 -> B9
+Track 40 -> B6
+Track 57 -> A4
+Track 65 -> B6
+Track 74 -> A12
+Track 84 -> A12
+Track 138 -> A10
+Track 139 -> A4
+Track 145 -> B9
+Track 157 -> B11
+Track 179 -> B11
+Track 187 -> A12
+Track 228 -> A4
+
+Final player identities:
+team_id  jersey_number
+      A              4
+      A             10
+      A             12
+      B              6
+      B              9
+      B             11
+
+Prediction file: /content/runs/detect/track/predictions.csv
+Rows: 5778
+Frames: 1118

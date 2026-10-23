@@ -1,0 +1,19 @@
+{
+  "python": "3.13.6 (v3.13.6:4e665351082, Aug  6 2025, 11:22:35) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "executable": "/private/tmp/trackid3x3-audit-venv/bin/python",
+  "platform": "macOS-15.1.1-arm64-arm-64bit-Mach-O",
+  "packages": {
+    "torch": null,
+    "ultralytics": null,
+    "easyocr": null,
+    "lap": null,
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "opencv-python-headless": "5.0.0.93",
+    "ndjson": "0.3.1",
+    "nbformat": "5.11.1"
+  },
+  "gpu": "No CUDA execution; macOS ARM validation only",
+  "scope": "Local schema/compatibility checks; not Kaggle environment"
+}

@@ -1,0 +1,34 @@
+
+Tracklet identities:
+Track 2 -> A10
+Track 3 -> B9
+Track 4 -> A4
+Track 5 -> A12
+Track 8 -> B6
+Track 18 -> B9
+Track 40 -> B6
+Track 57 -> A4
+Track 65 -> B6
+Track 74 -> A12
+Track 84 -> A12
+Track 138 -> A10
+Track 139 -> A4
+Track 145 -> B9
+Track 157 -> B11
+Track 179 -> B11
+Track 187 -> A12
+Track 198 -> B6
+Track 228 -> A4
+
+Final player identities:
+team_id  jersey_number
+      A              4
+      A             10
+      A             12
+      B              6
+      B              9
+      B             11
+
+Prediction file: /Users/thuong/Desktop/TrackID3x3/research/experiments/exp01_t198_jersey_oracle/exp1/predictions.csv
+Rows: 5966
+Frames: 1118

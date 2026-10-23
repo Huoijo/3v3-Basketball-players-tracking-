@@ -1,0 +1,48 @@
+{
+  "status": "PASS_FOR_INTERVENTION",
+  "rows": 5778,
+  "coverage": [
+    {
+      "identity": "A4",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A10",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A12",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B6",
+      "first_frame": 1,
+      "last_frame": 930,
+      "rows": 930
+    },
+    {
+      "identity": "B9",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B11",
+      "first_frame": 743,
+      "last_frame": 1118,
+      "rows": 376
+    }
+  ],
+  "row_keys_equal": true,
+  "max_exported_coordinate_difference_cm": 238.59773000000007,
+  "changed_common_rows": 9,
+  "B6_coordinates_exact_at_csv_precision": true,
+  "B11_coordinates_exact_at_csv_precision": true,
+  "tie_policy": "No artifact-constrained winner recovery was applied; original source executed as-is"
+}

@@ -1,0 +1,12 @@
+{
+  "cli": "/Library/Frameworks/Python.framework/Versions/3.12/bin/kaggle",
+  "credential_files_present": {
+    "~/.kaggle/kaggle.json": false,
+    "~/.kaggle/access_token": false,
+    "~/.config/kaggle/kaggle.json": false,
+    "~/.config/kaggle/access_token": false
+  },
+  "kaggle_environment_key_names": [],
+  "connected_kaggle_execution_tool": false,
+  "actual_kaggle_execution": false
+}

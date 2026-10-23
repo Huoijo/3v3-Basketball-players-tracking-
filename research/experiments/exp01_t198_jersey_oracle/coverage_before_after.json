@@ -1,0 +1,136 @@
+{
+  "frozen": [
+    {
+      "identity": "A4",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A10",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A12",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B6",
+      "first_frame": 1,
+      "last_frame": 930,
+      "rows": 930
+    },
+    {
+      "identity": "B9",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B11",
+      "first_frame": 743,
+      "last_frame": 1118,
+      "rows": 376
+    }
+  ],
+  "replay": [
+    {
+      "identity": "A4",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A10",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A12",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B6",
+      "first_frame": 1,
+      "last_frame": 930,
+      "rows": 930
+    },
+    {
+      "identity": "B9",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B11",
+      "first_frame": 743,
+      "last_frame": 1118,
+      "rows": 376
+    }
+  ],
+  "exp1": [
+    {
+      "identity": "A4",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A10",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "A12",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B6",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B9",
+      "first_frame": 1,
+      "last_frame": 1118,
+      "rows": 1118
+    },
+    {
+      "identity": "B11",
+      "first_frame": 743,
+      "last_frame": 1118,
+      "rows": 376
+    }
+  ],
+  "recovered_B6_tail_rows": 188,
+  "observed": 175,
+  "interpolated": 13,
+  "interpolated_tail_frames": [
+    931,
+    932,
+    933,
+    934,
+    935,
+    936,
+    937,
+    938,
+    957,
+    958,
+    992,
+    994,
+    995
+  ],
+  "selected_T198_rows": 175,
+  "new_B6_duplicate_key_count": 0
+}

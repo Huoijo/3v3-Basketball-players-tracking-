@@ -1,0 +1,1 @@
+An initial check compared the unrelated Kaggle derivative with its old build-hash sidecar and failed: its setup cell has an execution count, so that file is no longer the original output-free build. It was neither used nor written by this analysis. Final checks cover the actual baseline source, supplied Colab snapshot and results used here. No Kaggle file or sidecar was changed.

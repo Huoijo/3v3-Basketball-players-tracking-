@@ -1,0 +1,26 @@
+{
+  "preregistered_utc": "2026-10-23T05:21:16.351783+00:00",
+  "quality_samples": 32,
+  "minimum_frame_gap": 3,
+  "baseline_samples": 40,
+  "quality_formula": "geometric mean of clipped [sqrt(area)/250, LaplacianVariance/150, grayStdDev/50] (each clipped 0.05..1), multiplied by retained bbox area fraction",
+  "variants": [
+    "full_2x",
+    "torso_2x",
+    "torso_clahe_3x"
+  ],
+  "torso_fractions": [
+    0.15,
+    0.12,
+    0.85,
+    0.65
+  ],
+  "preprocessing": "grayscale CLAHE clipLimit=2 tileGridSize=(8,8); cubic 3x; unsharp Gaussian sigma1 weight1.3/-0.3",
+  "ocr": "EasyOCR en; CRAFT + english_g2; CPU full precision quantize=False to match original GPU precision path; readtext digits allowlist detail1 paragraphFalse defaults",
+  "min_confidence": 0.1,
+  "aggregation": "team roster filters only; per frame/candidate maximum OCR confidence across variants; sum confidence*(0.5+0.5*quality); best must have >=2 distinct accepted frames, share>=0.60 and normalized margin>=0.20; deterministic ties ascending jersey; otherwise None",
+  "no_fallback": true,
+  "inference_inputs": "original video + filtered MOT + frozen team assignment and roster only; baseline jersey used only in reporting",
+  "evaluation_gate": "persist all automatic outputs before inspecting diagnostic target; downstream only if target automatic jersey is 6; no tuning",
+  "quantize": false
+}

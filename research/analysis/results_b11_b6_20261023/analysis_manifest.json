@@ -1,0 +1,134 @@
+{
+  "status": "PARTIAL",
+  "scope": "Causal diagnosis; baseline/result files read-only",
+  "result_rows": 5778,
+  "expected_rows": 6708,
+  "missing_rows": 930,
+  "supplied_results_unchanged_during_analysis": true,
+  "tracker_ids": 37,
+  "filtered_tracker_ids": 23,
+  "projection_max_absolute_error_cm": 1.8758328224066645e-12,
+  "final_replay_max_absolute_error_cm": 4.999979637432261e-06,
+  "equal_confidence_tie_groups": 21,
+  "local_tie_choices_differ_from_export": 9,
+  "tie_provenance": "Disambiguated from unchanged saved predictions; not an independent numerical replay of tie ordering",
+  "final_replay_row_keys_equal": true,
+  "source_cell_parity": {
+    "3": {
+      "executed_cell": 3,
+      "exact_source_equal": true
+    },
+    "5": {
+      "executed_cell": 5,
+      "exact_source_equal": true
+    },
+    "7": {
+      "executed_cell": 7,
+      "exact_source_equal": true
+    },
+    "9": {
+      "executed_cell": 9,
+      "exact_source_equal": true
+    },
+    "11": {
+      "executed_cell": 12,
+      "exact_source_equal": true
+    },
+    "13": {
+      "executed_cell": 14,
+      "exact_source_equal": true
+    },
+    "15": {
+      "executed_cell": 16,
+      "exact_source_equal": true
+    },
+    "17": {
+      "executed_cell": 18,
+      "exact_source_equal": true
+    },
+    "19": {
+      "executed_cell": 20,
+      "exact_source_equal": true
+    },
+    "21": {
+      "executed_cell": 22,
+      "exact_source_equal": true
+    },
+    "23": {
+      "executed_cell": 24,
+      "exact_source_equal": true
+    },
+    "24": {
+      "executed_cell": 25,
+      "exact_source_equal": true
+    },
+    "26": {
+      "executed_cell": 27,
+      "exact_source_equal": true
+    },
+    "28": {
+      "executed_cell": 29,
+      "exact_source_equal": true
+    },
+    "30": {
+      "executed_cell": 31,
+      "exact_source_equal": true
+    }
+  },
+  "video": {
+    "width": 3840.0,
+    "height": 2160.0,
+    "fps": 29.97,
+    "frames": 1118
+  },
+  "geometry_diagnostic_gate_cm": 100,
+  "geometry_matching_warning": "GT geometric proximity, especially in crossings, is not identity ground truth for a tracker box",
+  "remaining_limits": [
+    "No pre-tracker detector boxes or rejected detections",
+    "No raw OCR strings/rejections/confidences per sample",
+    "Manual image evidence is sampled, not exhaustive frame relabeling"
+  ],
+  "inputs": {
+    "results/IMG_0104_1_with_minimap.mp4": {
+      "bytes": 196372868,
+      "sha256": "2a759ea04888940cbb28d101d5e0c01e8325cd74241b68d51bed9bd6dffeae2f"
+    },
+    "results/filtered_mot.txt": {
+      "bytes": 267451,
+      "sha256": "c111434b13bf28533671988e2127c564033166a52aa89d39379c62755e2c925f"
+    },
+    "results/mot_results.txt": {
+      "bytes": 692479,
+      "sha256": "aac2197dda2e8553dc3dbfc7a3a14dc3903d0cabc5af27b2932507faea32aa88"
+    },
+    "results/predictions.csv": {
+      "bytes": 165875,
+      "sha256": "fa23011ad1cc5ecc4629e23c6908da734bb8ef7a688781fec991d17da2ab4aac"
+    },
+    "results/transformed_court.txt": {
+      "bytes": 281773,
+      "sha256": "91bbf27b04b6c541cdeee3b222456ff50ab09af4c26ba15d4225f820396f5809"
+    },
+    "research/analysis/results_b11_b6_20261023/source/executed_colab.ipynb": {
+      "bytes": 2050990,
+      "sha256": "b4f3987c7252bf794dde6df60688dbf623ae8eff9dcfa7825ab1b9a904af6a19"
+    },
+    "TrackID3x3_Challenge_Tutorial.ipynb": {
+      "bytes": 2082521,
+      "sha256": "33da120728e1ef5884ef001a8c30da3b0c183c165626b91c1075f1be7e9c1c00"
+    },
+    "research/runs/20261022-01_baseline-audit_tutorial_eval-smoke/IMG_0104_1_tutorial_challenge.csv": {
+      "bytes": 193109,
+      "sha256": "a86beb68f5e8351eea3b65b126db2a167b4c2f2dc805715818951c6760f4f2a2"
+    },
+    "research/runs/20261022-02_baseline-audit_tutorial_homography-smoke/Outdoor.ndjson": {
+      "bytes": 14324,
+      "sha256": "84bedee6b8b499e84bb98dba99b8c36a11c3eb08c60e88c3e7fbc95979b1b9ca"
+    }
+  },
+  "script": "research/tools/analyze_identity_coverage.py",
+  "script_sha256": "c1ea32a187e4cf940d5207a717b4cad5d4a1d1b5fe7ab74d4d2896b5a756b3ce",
+  "command": [
+    "research/tools/analyze_identity_coverage.py"
+  ]
+}

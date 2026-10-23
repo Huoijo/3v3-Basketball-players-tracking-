@@ -1,0 +1,11 @@
+{
+  "commands.txt": "d10a71e2e54a230ab28f2317c511dc5e9646a05a10b6c333416ace7f791be617",
+  "homography.json": "d367767c7ccde6fab77a869bf9e9753e938dd92ef06034abcddcd5c3866f980a",
+  "kaggle_execution_availability.json": "99fa017e2bdbaa058d3bc9ce44e995e249e56728a0cc579b262e06082d4ddc6b",
+  "kaggle_source_snapshot.ipynb": "5272d8ef1237f8921194021e9108032b7904069861e220455f69ed76c317f8f1",
+  "local_environment.json": "34f178b0edd0dd1c897c7505e8cca66f933315c6c5d204edb3364f514c9a5ddb",
+  "source_hashes.json": "5d9345dc579a67472b287950dd13773fc1c1307fe71b79cb54fef33fc585f566",
+  "validation.json": "35873629b2c1c10693ce141fa6afcb26b12a7fd0406cf97598a4fb9a35f385b0",
+  "validation.log": "575d96cd57d276234ee6218b4e4ae759738fe542987e03ebc49fdf45d89c0671",
+  "validation_dependency_install.log": "e7fae05b919a0cd201b23ff4b861008dd6a1f41eb52403f159a9cef673c0c31e"
+}

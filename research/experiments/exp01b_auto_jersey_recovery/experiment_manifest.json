@@ -1,0 +1,13 @@
+{
+  "experiment": "exp01b_auto_jersey_recovery",
+  "status": "RUNNING",
+  "started_utc": "2026-10-23T05:23:40.188019+00:00",
+  "preregistration": "configuration.json",
+  "inference_script": "run.py",
+  "visual_source": "original MOV being downloaded; inference blocked until exact frame/crop reconstruction verified",
+  "protected_inputs": "source_hashes.json",
+  "no_model_escalation": true,
+  "visual_source_verified": true,
+  "visual_source_sha256": "c4bff5fd4db2804996aae21e798b29e9f535b0f3c9a55db27b76a8bdeac77340",
+  "reconstructed_observations": 6489
+}

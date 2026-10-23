@@ -1,0 +1,14 @@
+Collecting opencv-python-headless
+  Downloading opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl.metadata (19 kB)
+Collecting ndjson
+  Downloading ndjson-0.3.1-py2.py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: numpy>=2 in /Library/Frameworks/Python.framework/Versions/3.13/lib/python3.13/site-packages (from opencv-python-headless) (2.4.1)
+Downloading opencv_python_headless-5.0.0.93-cp37-abi3-macosx_13_0_arm64.whl (48.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.3/48.3 MB 4.1 MB/s  0:00:11
+Downloading ndjson-0.3.1-py2.py3-none-any.whl (5.3 kB)
+Installing collected packages: ndjson, opencv-python-headless
+
+Successfully installed ndjson-0.3.1 opencv-python-headless-5.0.0.93
+
+[notice] A new release of pip is available: 25.2 -> 26.2.2
+[notice] To update, run: /private/tmp/trackid3x3-audit-venv/bin/python -m pip install --upgrade pip

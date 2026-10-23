@@ -1,0 +1,140 @@
+{
+  "status": "CONFIRMED",
+  "experiment": "exp01_t198_jersey_oracle",
+  "started_utc": "2026-10-23T04:17:59.485162+00:00",
+  "only_intervention": "track_to_jersey[198]: None -> 6",
+  "source_evaluator_unchanged": true,
+  "models_or_clustering_rerun": false,
+  "tie_policy": "Original global confidence sort/dedup; no repair or frozen-winner override",
+  "completed_utc": "2026-10-23T04:18:08.547696+00:00",
+  "hypotheses": {
+    "H1": true,
+    "H2": true,
+    "H3": true,
+    "H4": true,
+    "H5": true
+  },
+  "baseline_replay_valid_for_B6": true,
+  "all_frozen_input_hashes_unchanged": true,
+  "other_mapping_keys_unchanged": true,
+  "non_B6_coordinate_interactions": [
+    {
+      "frame_id": 425,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 497,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 522,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 553,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 570,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 571,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 586,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 587,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 606,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 608,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 610,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 624,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    },
+    {
+      "frame_id": 711,
+      "identity": "A12",
+      "direct_tied_dedup_winner_change": true,
+      "mechanism": "Unchanged global sort receives 175 additional semantic rows; equal-confidence order changes"
+    }
+  ],
+  "recovered_B6_quality": {
+    "rows": 188,
+    "GT_correspondences": 188,
+    "observed": 175,
+    "interpolated": 13,
+    "median_error_cm": 19.912195804144783,
+    "max_error_cm": 373.0517362084315,
+    "within_100cm": 172,
+    "over_100cm": 16,
+    "over_200cm": 9,
+    "over_300cm": 3,
+    "semantic_key_collisions": 0,
+    "by_origin": {
+      "interpolated": {
+        "rows": 13,
+        "median_error_cm": 29.40531008670717,
+        "within100": 9
+      },
+      "observed_T198": {
+        "rows": 175,
+        "median_error_cm": 19.145270746134674,
+        "within100": 163
+      }
+    }
+  },
+  "metric_delta": {
+    "TI-HOTA": 0.017739300884318854,
+    "TI-DetA": 0.017801020223921937,
+    "TI-AssA": 0.01767834522890943,
+    "TI-TP": 152.0,
+    "TI-FP": 36.0,
+    "TI-FN": -152.0
+  },
+  "elapsed_seconds": 9.059919083025306,
+  "source_hashes": {
+    "source/location_diagnostic_original.py": "cd2d87d83a2e2de57d9b8ababf385c646f22ad4b78165a3dae111b45a9c0cac5",
+    "source/evaluator_original.py": "d7bb44d1162c012226f66805be0e9e20885c9ae4d49e84d28a20a2239e178f13",
+    "source/downstream_original.py": "280de736b532d406383964d73b6c9fd788b97ad4d146d0c18bb511f3664c0cb0"
+  },
+  "caveat": "Known confidence-tie order is unspecified. No sort/dedup modification was made to force other-row invariants."
+}

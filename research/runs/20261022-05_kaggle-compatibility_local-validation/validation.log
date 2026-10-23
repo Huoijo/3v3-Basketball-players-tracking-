@@ -1,0 +1,146 @@
+IMG_0104_1.MOV: /var/folders/dt/8cckj35n5c12dv9132sxyrfc0000gn/T/trackid3x3-kaggle-check-1123g4aq/input with spaces/IMG_0104_1.MOV
+IMG_0104_1_tutorial_challenge.csv: /var/folders/dt/8cckj35n5c12dv9132sxyrfc0000gn/T/trackid3x3-kaggle-check-1123g4aq/input with spaces/IMG_0104_1_tutorial_challenge.csv
+Outdoor.ndjson: /var/folders/dt/8cckj35n5c12dv9132sxyrfc0000gn/T/trackid3x3-kaggle-check-1123g4aq/input with spaces/Outdoor.ndjson
+Outdoor.png: /var/folders/dt/8cckj35n5c12dv9132sxyrfc0000gn/T/trackid3x3-kaggle-check-1123g4aq/input with spaces/Outdoor.png
+[5] Homography
+Image coordinates:
+[[2698.841 1172.363]
+ [3749.903 1726.613]
+ [ 875.716 1237.863]
+ [ 108.424 1970.321]]
+
+Court coordinates [cm]:
+[[   0.    0.]
+ [   0. 1105.]
+ [1505.    0.]
+ [1505. 1105.]]
+
+Homography:
+[[ 8.67168311e-01 -1.64447031e+00 -4.12433240e+02]
+ [-1.33168361e-01 -3.70660422e+00  4.70488602e+03]
+ [-1.02627370e-05 -1.70701600e-03  1.00000000e+00]]
+
+Court range [cm]: x=[0.0, 1505.0], y=[0.0, 1105.0]
+[5] COMPLETE (0.01s)
+[4] MOT Conversion
+MOT file: /var/folders/dt/8cckj35n5c12dv9132sxyrfc0000gn/T/trackid3x3-kaggle-check-1123g4aq/tracking/mot_results.txt
+MOT rows: 1
+[4] COMPLETE (0.00s)
+[fixture] Intentional failure
+[fixture] FAILED (0.00s)
+{
+  "status": "READY_FOR_KAGGLE",
+  "actual_kaggle_execution": false,
+  "baseline_score": null,
+  "checks": [
+    {
+      "name": "notebook_schema_and_python_syntax",
+      "status": "PASS",
+      "detail": {
+        "code_cells": 16,
+        "nbformat": "4.5",
+        "saved_outputs_cleared": true,
+        "original_unchanged": true
+      }
+    },
+    {
+      "name": "algorithm_ast_preservation",
+      "status": "PASS",
+      "detail": {
+        "unchanged": [
+          "YOLO11x inference parameters",
+          "ByteTrack configuration semantics",
+          "YOLO-to-MOT parser and conversion",
+          "homography",
+          "court filter",
+          "OCR thresholds",
+          "team assignment",
+          "roster",
+          "semantic merge",
+          "interpolation",
+          "TI-HOTA",
+          "location diagnostics"
+        ],
+        "allowed_changes": [
+          "weight/YAML path",
+          "video save flag",
+          "Reader cache path/download policy",
+          "CUDA guard"
+        ]
+      }
+    },
+    {
+      "name": "executed_source_hash_round_trip",
+      "status": "PASS",
+      "detail": "Reconstructed notebook is byte-identical to the shipped source artifact"
+    },
+    {
+      "name": "offline_input_resolution",
+      "status": "PASS",
+      "detail": {
+        "label": "Synthetic video/PNG + real GT/calibration; filesystem test only",
+        "offline_paths_with_spaces": "PASS",
+        "missing_input": "rejected",
+        "duplicate_input": "rejected"
+      }
+    },
+    {
+      "name": "generated_homography_stage_real_calibration",
+      "status": "PASS",
+      "detail": {
+        "actual_tutorial_calibration": true,
+        "max_fit_residual_cm": 6.011116626160329e-13,
+        "localization_accuracy_claimed": false
+      }
+    },
+    {
+      "name": "generated_mot_conversion_fixture",
+      "status": "PASS",
+      "detail": {
+        "label": "Synthetic label fixture; NOT a real GPU label-format validation",
+        "row": [
+          "1",
+          "2",
+          "25.60",
+          "14.40",
+          "12.80",
+          "19.20",
+          "0.90",
+          "-1",
+          "-1",
+          "-1"
+        ]
+      }
+    },
+    {
+      "name": "probe_guard_without_parser_change",
+      "status": "PASS",
+      "detail": "Original parser retained; synthetic ambiguity is detected, not silently repaired"
+    },
+    {
+      "name": "failure_persistence",
+      "status": "PASS",
+      "detail": "Runtime exceptions propagate and persist failure evidence"
+    },
+    {
+      "name": "generated_evaluator_contract",
+      "status": "PASS",
+      "detail": "Generated evaluator perfect/missing synthetic contract checks pass; no model score"
+    }
+  ],
+  "original_sha256": "33da120728e1ef5884ef001a8c30da3b0c183c165626b91c1075f1be7e9c1c00",
+  "kaggle_sha256": "5272d8ef1237f8921194021e9108032b7904069861e220455f69ed76c317f8f1",
+  "local_execution": "CPU compatibility checks only",
+  "pending": [
+    "Actual Kaggle GPU environment validation",
+    "Real YOLO/ByteTrack label probe",
+    "Full detection\u2192OCR\u2192semantic identity execution",
+    "Fresh predictions and TI-HOTA"
+  ],
+  "tool_hashes": {
+    "research/tools/build_kaggle_notebook.py": "4de9e8b4add8504fd27d02a9666e92492091bd75d9293be74621cd990ba1ff98",
+    "research/tools/validate_kaggle_notebook.py": "da3c5335732edec609d18638c7d0d4544ad35e97f47e3fd758e1a003c22c19a0",
+    "notebooks/kaggle_bootstrap.py": "9873ea50c49a1271d251bc59cba1a55eedb4a4ce827fa90f473aa40fccf085f1",
+    "notebooks/kaggle_label_probe.py": "57f32ae73b428cc0e20146bafa77ca2d5c4ce3523c567fa60ed07b2460bfa8e7"
+  }
+}

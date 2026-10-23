@@ -1,0 +1,7 @@
+identity,first_frame,last_frame,final_rows,missing_frames,missing_ranges,surviving_observed_rows,interpolated_rows
+A10,1,1118,1118,0,[],1084,34
+A12,1,1118,1118,0,[],1082,36
+A4,1,1118,1118,0,[],995,123
+B11,743,1118,376,742,"[[1, 742]]",332,44
+B6,1,930,930,188,"[[931, 1118]]",902,28
+B9,1,1118,1118,0,[],1057,61

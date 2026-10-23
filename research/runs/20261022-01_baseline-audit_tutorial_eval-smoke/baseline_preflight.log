@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/thuong/Desktop/TrackID3x3/research/tools/baseline_audit.py", line 118, in main
+    exec(compile(prep, f'{NOTEBOOK.name}:cell3', 'exec'), {})
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "TrackID3x3_Challenge_Tutorial.ipynb:cell3", line 9, in <module>
+ModuleNotFoundError: No module named 'cv2'

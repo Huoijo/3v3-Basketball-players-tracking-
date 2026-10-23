@@ -1,0 +1,31 @@
+{
+  "utc": "2026-10-23T05:38:27.386997+00:00",
+  "reason": "Installed EasyOCR source confirms default CPU quantizes recognizer while original GPU path does not. Set quantize=False consistently for both replay and enhanced OCR to avoid a needless precision change. No OCR has been run or inspected. Sampling/crops/quality/thresholds/voting unchanged.",
+  "old_configuration_sha256": "31891d01a36e165b310c283383c7b5a53e5e13f61400bf3c4bd6d90f093ebf4a",
+  "new_configuration_sha256": "55bcb9fddd212d84d5a7022d91dad30df56844a8e426edcf58372f3bc0940594",
+  "previous_preregistration": {
+    "configuration_sha256": "31891d01a36e165b310c283383c7b5a53e5e13f61400bf3c4bd6d90f093ebf4a",
+    "inference_script_sha256": "1a7ed50b7a2b13d0c007e31e27dfedb0e1ba7099c5cf0484406403c355147f7a",
+    "baseline_original_source_sha256": "ce1b6e33c1d3278dc7f41fa58e43e418c32c1aed0c5ff44a458039c55fffaf9b",
+    "weights_reference": "https://raw.githubusercontent.com/JaidedAI/EasyOCR/v1.7.2/easyocr/config.py",
+    "models_expected_md5": {
+      "craft_mlt_25k.pth": "2f8227d2def4037cdb3b34389dcf9ec1",
+      "english_g2.pth": "5864788e1821be9e454ec108d61b887d"
+    },
+    "parameter_tuning_after_target_inspection": false,
+    "note": "Step 2 replay diagnosed before enhanced inference; quality/variants/acceptance defined before any OCR. No GT reads in inference."
+  },
+  "new_preregistration": {
+    "configuration_sha256": "55bcb9fddd212d84d5a7022d91dad30df56844a8e426edcf58372f3bc0940594",
+    "inference_script_sha256": "dd15288af17a25046a46d654bbbcd2836a2c4e7c4fa0863ee2b2baf99449f713",
+    "baseline_original_source_sha256": "ce1b6e33c1d3278dc7f41fa58e43e418c32c1aed0c5ff44a458039c55fffaf9b",
+    "weights_reference": "https://raw.githubusercontent.com/JaidedAI/EasyOCR/v1.7.2/easyocr/config.py",
+    "models_expected_md5": {
+      "craft_mlt_25k.pth": "2f8227d2def4037cdb3b34389dcf9ec1",
+      "english_g2.pth": "5864788e1821be9e454ec108d61b887d"
+    },
+    "parameter_tuning_after_target_inspection": false,
+    "note": "Step 2 replay diagnosed before enhanced inference; quality/variants/acceptance defined before any OCR. No GT reads in inference."
+  },
+  "no_ocr_artifacts_existed": true
+}

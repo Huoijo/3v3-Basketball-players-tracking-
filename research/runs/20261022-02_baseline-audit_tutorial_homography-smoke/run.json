@@ -1,0 +1,28 @@
+{
+  "baseline_status": "BLOCKED",
+  "baseline_score": null,
+  "reason": "No detector/tracker/OCR execution in this audit runner; see preflight and reproduction recipe.",
+  "seed_policy": "Original notebook does not explicitly set seeds; unchanged.",
+  "notebook_sha256": "33da120728e1ef5884ef001a8c30da3b0c183c165626b91c1075f1be7e9c1c00",
+  "command": [
+    "research/tools/baseline_audit.py",
+    "--output",
+    "research/runs/20261022-02_baseline-audit_tutorial_homography-smoke",
+    "--gt",
+    "research/runs/20261022-01_baseline-audit_tutorial_eval-smoke/IMG_0104_1_tutorial_challenge.csv",
+    "--download-calibration"
+  ],
+  "inputs": {
+    "calibration": {
+      "path": "/Users/thuong/Desktop/TrackID3x3/research/runs/20261022-02_baseline-audit_tutorial_homography-smoke/Outdoor.ndjson",
+      "sha256": "84bedee6b8b499e84bb98dba99b8c36a11c3eb08c60e88c3e7fbc95979b1b9ca"
+    },
+    "gt": {
+      "path": "/Users/thuong/Desktop/TrackID3x3/research/runs/20261022-01_baseline-audit_tutorial_eval-smoke/IMG_0104_1_tutorial_challenge.csv",
+      "sha256": "a86beb68f5e8351eea3b65b126db2a167b4c2f2dc805715818951c6760f4f2a2"
+    }
+  },
+  "homography_status": "PASS: unchanged cell 11 on real calibration",
+  "evaluator_smoke_status": "PASS",
+  "elapsed_seconds": 20.638018374913372
+}

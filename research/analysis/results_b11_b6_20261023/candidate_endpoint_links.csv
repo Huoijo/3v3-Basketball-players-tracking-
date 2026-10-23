@@ -1,0 +1,10 @@
+from_tracker_id,to_tracker_id,from_endpoint_frame,to_start_frame,delta_frames,endpoint_distance_cm,note
+7,59,300,301,1,216.30312030785686,Endpoints may overlap or span mixed tracks; descriptive geometry only
+59,74,399,408,9,110.60981537544278,Endpoints may overlap or span mixed tracks; descriptive geometry only
+74,5,451,1,-450,556.1157305227707,Endpoints may overlap or span mixed tracks; descriptive geometry only
+5,157,741,743,2,328.6166918497908,Endpoints may overlap or span mixed tracks; descriptive geometry only
+157,172,808,820,12,61.48413847277603,Endpoints may overlap or span mixed tracks; descriptive geometry only
+172,179,857,853,-4,44.40029340113768,Endpoints may overlap or span mixed tracks; descriptive geometry only
+8,40,147,160,13,135.07975743056812,Endpoints may overlap or span mixed tracks; descriptive geometry only
+40,65,305,308,3,193.3015846951427,Endpoints may overlap or span mixed tracks; descriptive geometry only
+65,198,930,939,9,178.9333589639251,Endpoints may overlap or span mixed tracks; descriptive geometry only

@@ -1,0 +1,2 @@
+python3 -m venv --system-site-packages /tmp/trackid3x3-audit-venv
+/tmp/trackid3x3-audit-venv/bin/python -m pip install opencv-python-headless ndjson

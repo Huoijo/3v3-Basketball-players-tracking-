@@ -1,0 +1,37 @@
+{
+  "status": "BLOCKED",
+  "actual_kaggle_execution": false,
+  "baseline_score": null,
+  "checks": [
+    {
+      "name": "notebook_schema_and_python_syntax",
+      "status": "PASS",
+      "detail": {
+        "code_cells": 16,
+        "nbformat": "4.5",
+        "saved_outputs_cleared": true,
+        "original_unchanged": true
+      }
+    },
+    {
+      "name": "algorithm_ast_preservation",
+      "status": "FAIL",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/thuong/Desktop/TrackID3x3/research/tools/validate_kaggle_notebook.py\", line 41, in check\n    detail = function()\n  File \"/Users/thuong/Desktop/TrackID3x3/research/tools/validate_kaggle_notebook.py\", line 71, in preservation\n    assert dump(expected)==dump(body(ident)[:len(expected)]),ident\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: homography\n"
+    }
+  ],
+  "original_sha256": "33da120728e1ef5884ef001a8c30da3b0c183c165626b91c1075f1be7e9c1c00",
+  "kaggle_sha256": "45ffd5b11fdd43c92c8e11ed4a2dc7933e926a23e63b8f7a1ffaea135e4aa423",
+  "local_execution": "CPU compatibility checks only",
+  "pending": [
+    "Actual Kaggle GPU environment validation",
+    "Real YOLO/ByteTrack label probe",
+    "Full detection\u2192OCR\u2192semantic identity execution",
+    "Fresh predictions and TI-HOTA"
+  ],
+  "tool_hashes": {
+    "research/tools/build_kaggle_notebook.py": "b6eefd30b6a5a725d909c1e3cafaf6a09128721d88b1c43b7cfd52cecb6cab55",
+    "research/tools/validate_kaggle_notebook.py": "a4b80f4e32de52f54ee81d0ff1ad5bae926fb6b49bc2fc7237c447f70bfa0da1",
+    "notebooks/kaggle_bootstrap.py": "9873ea50c49a1271d251bc59cba1a55eedb4a4ce827fa90f473aa40fccf085f1",
+    "notebooks/kaggle_label_probe.py": "57f32ae73b428cc0e20146bafa77ca2d5c4ce3523c567fa60ed07b2460bfa8e7"
+  }
+}

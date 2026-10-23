@@ -1,0 +1,21 @@
+{
+  "python": "3.13.6 (v3.13.6:4e665351082, Aug  6 2025, 11:22:35) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "executable": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+  "platform": "macOS-15.1.1-arm64-arm-64bit-Mach-O",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.4.1",
+    "pandas": "2.3.3",
+    "scipy": "1.17.0",
+    "torch": null,
+    "opencv-python": null,
+    "ultralytics": null,
+    "easyocr": null,
+    "ndjson": null,
+    "gdown": null,
+    "nbclient": null,
+    "lap": null
+  },
+  "cuda_available": null,
+  "cuda_device": null
+}

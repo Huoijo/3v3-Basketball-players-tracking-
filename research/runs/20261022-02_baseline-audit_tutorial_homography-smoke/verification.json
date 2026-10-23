@@ -1,0 +1,10 @@
+{
+  "notebook_unchanged": true,
+  "source_snapshots_match_notebook": true,
+  "local_document_links": "PASS",
+  "audit_script_syntax": "PASS",
+  "preexisting_artifact_hashes": "PASS",
+  "code_cell_count": 15,
+  "final_audit_script_sha256": "f7171c9f1d6f8da879fc3d74afbe7c008d44d2d3bab4a65c8c3381edae6f3d21",
+  "note": "Final script adds script-hash metadata and failed-download exit handling after run 02; inference/evaluator unchanged."
+}

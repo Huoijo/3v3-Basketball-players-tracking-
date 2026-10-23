@@ -1,0 +1,234 @@
+[
+  {
+    "cell": 0,
+    "type": "markdown",
+    "source_file": "source/cell_00.md",
+    "sha256": "f8ddaf31b7460c1445c57905ebfb40678ad5e69deaa23ed1c2b07df2fef7df80",
+    "execution_count": null
+  },
+  {
+    "cell": 1,
+    "type": "markdown",
+    "source_file": "source/cell_01.md",
+    "sha256": "036903bc4d3e4f69ebd88886d64e88e80ef856251ee1ed28487aff8a40a59d50",
+    "execution_count": null
+  },
+  {
+    "cell": 2,
+    "type": "markdown",
+    "source_file": "source/cell_02.md",
+    "sha256": "e1337f1f401a7978ee08e5931390773d7b1a7caf2a8a259cc55db63fa5567847",
+    "execution_count": null
+  },
+  {
+    "cell": 3,
+    "type": "code",
+    "source_file": "source/cell_03.py",
+    "sha256": "fd852852fee2404a4be467639cac45e88967dbf6fd55fda219b13831ed96acfc",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 4,
+    "type": "markdown",
+    "source_file": "source/cell_04.md",
+    "sha256": "0b5a06b500ed456a1b29d25150a88c74e1552901d119cec00de7143632522939",
+    "execution_count": null
+  },
+  {
+    "cell": 5,
+    "type": "code",
+    "source_file": "source/cell_05.py",
+    "sha256": "69665a823c3ca9a705b323b1dfa9368085201dfdd45a552985e4820a5292e733",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 6,
+    "type": "markdown",
+    "source_file": "source/cell_06.md",
+    "sha256": "ca7e56227253413eefed25e0601155025fbd190044564d446870cf212c54d605",
+    "execution_count": null
+  },
+  {
+    "cell": 7,
+    "type": "code",
+    "source_file": "source/cell_07.py",
+    "sha256": "5c2aa9563d7c1801cc3b69d70fd78d433c6ce652779e088531dad8bea77a2c21",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 8,
+    "type": "markdown",
+    "source_file": "source/cell_08.md",
+    "sha256": "1442304007bfcc3b0b7e9e63d558c69c60468c6bbeda46c08dd09e2896e04a7f",
+    "execution_count": null
+  },
+  {
+    "cell": 9,
+    "type": "code",
+    "source_file": "source/cell_09.py",
+    "sha256": "cd31511ffe25269e1403224b69f96baaef157b3c392227e5a63cfdee68e39ca2",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 10,
+    "type": "markdown",
+    "source_file": "source/cell_10.md",
+    "sha256": "9726393f40c3a45bf7b26d1078af8c999d5263a753eaa5db83bae19933ec6030",
+    "execution_count": null
+  },
+  {
+    "cell": 11,
+    "type": "code",
+    "source_file": "source/cell_11.py",
+    "sha256": "375559ab11e9a5cbb9278f5bef9ea971a67b59d49cfa46b0185570658052b352",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 12,
+    "type": "markdown",
+    "source_file": "source/cell_12.md",
+    "sha256": "446e86968b4216adfd8abd3570d2f11967a9bcf985d6a63969a584c7d0ed4eec",
+    "execution_count": null
+  },
+  {
+    "cell": 13,
+    "type": "code",
+    "source_file": "source/cell_13.py",
+    "sha256": "db46f916e93da2250966c305ee33db94a28690f70fe60748e6049a1df1cccbf8",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 14,
+    "type": "markdown",
+    "source_file": "source/cell_14.md",
+    "sha256": "db45a14e08ae1e5df5492327025d7019ef6496a8e0265b13070e8611cb97a6bc",
+    "execution_count": null
+  },
+  {
+    "cell": 15,
+    "type": "code",
+    "source_file": "source/cell_15.py",
+    "sha256": "dd84b5ca601ad76dd1e9155d49f0114eb42de5b15341034a28c12588ee4a5880",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 16,
+    "type": "markdown",
+    "source_file": "source/cell_16.md",
+    "sha256": "d205408eac4ed9da51d8ba1f7fe005453e1644dc4ccc913bfa21500150797822",
+    "execution_count": null
+  },
+  {
+    "cell": 17,
+    "type": "code",
+    "source_file": "source/cell_17.py",
+    "sha256": "ce1b6e33c1d3278dc7f41fa58e43e418c32c1aed0c5ff44a458039c55fffaf9b",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 18,
+    "type": "markdown",
+    "source_file": "source/cell_18.md",
+    "sha256": "a8f3db40cf25aba2bd0891de4c190c6303cd45a8386140c62f8bdca0cbbcfa53",
+    "execution_count": null
+  },
+  {
+    "cell": 19,
+    "type": "code",
+    "source_file": "source/cell_19.py",
+    "sha256": "813d7e74a3ac781c65758f166999a3880d3c1e433ebfa22199604b5bd90fbefe",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 20,
+    "type": "markdown",
+    "source_file": "source/cell_20.md",
+    "sha256": "d2855458e4f212286b8179e66195f32eb92dd0dabd6045d30a5d60474186cab0",
+    "execution_count": null
+  },
+  {
+    "cell": 21,
+    "type": "code",
+    "source_file": "source/cell_21.py",
+    "sha256": "d7bb44d1162c012226f66805be0e9e20885c9ae4d49e84d28a20a2239e178f13",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 22,
+    "type": "markdown",
+    "source_file": "source/cell_22.md",
+    "sha256": "d5a5e94ced9cbc9fb7cb584decb2a1dfb97c77affd5bd0d2312b23251128add7",
+    "execution_count": null
+  },
+  {
+    "cell": 23,
+    "type": "code",
+    "source_file": "source/cell_23.py",
+    "sha256": "d26369cea9e1a6e64b8a1595b1949573c067fe80be81d362bbce846195f485a3",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 24,
+    "type": "code",
+    "source_file": "source/cell_24.py",
+    "sha256": "7beb89a197856c8011ffe6a711ac77f3453db698b80a633e9cebbf985ae4fad6",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 25,
+    "type": "markdown",
+    "source_file": "source/cell_25.md",
+    "sha256": "43dd85e3fe91aad4e2c8a777fb92ed40883fd1ab88978e61becf33dce2bac1b8",
+    "execution_count": null
+  },
+  {
+    "cell": 26,
+    "type": "code",
+    "source_file": "source/cell_26.py",
+    "sha256": "650962352f796be56d7b5d6fb0ab2e1638ca03c8577db014ea70839bcfb1ca86",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 27,
+    "type": "markdown",
+    "source_file": "source/cell_27.md",
+    "sha256": "2d7d585d5c40e48ea8528379d2700de0d6e5e9b7fc67168aca8c56824e540a99",
+    "execution_count": null
+  },
+  {
+    "cell": 28,
+    "type": "code",
+    "source_file": "source/cell_28.py",
+    "sha256": "2843e8c9f26496de33b8fddd602872a0b1536cb760276cee7e33e9e810a2be6d",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  },
+  {
+    "cell": 29,
+    "type": "markdown",
+    "source_file": "source/cell_29.md",
+    "sha256": "bb8d2e6d73e46e2e3bb81b80c20786d64bff1946368449f653ac999f9d4a0b1c",
+    "execution_count": null
+  },
+  {
+    "cell": 30,
+    "type": "code",
+    "source_file": "source/cell_30.py",
+    "sha256": "c7814d61b89aa427f194c144b4438eacf073451ac05835950058372dbe5258c5",
+    "execution_count": null,
+    "syntax_without_shell_magics": "PASS"
+  }
+]

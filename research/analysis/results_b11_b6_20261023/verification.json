@@ -1,0 +1,15 @@
+{
+  "original_notebook_unchanged": true,
+  "supplied_results_hashes_unchanged": true,
+  "all_15_baseline_source_cells_equal": true,
+  "coverage_arithmetic": "PASS",
+  "all_37_lifecycles_present": true,
+  "four_candidate_semantic_drops_verified": true,
+  "no_B6_or_B11_semantic_deduplications": true,
+  "documentation_and_image_links": "PASS",
+  "local_python": "3.13.6 (v3.13.6:4e665351082, Aug  6 2025, 11:22:35) [Clang 16.0.0 (clang-1600.0.26.6)]",
+  "platform": "macOS-15.1.1-arm64-arm-64bit-Mach-O",
+  "baseline_behavior_modified": false,
+  "new_inference_or_experiment_executed": false,
+  "caveat": "Tie winners are artifact-constrained provenance; detector/rejected-OCR attribution remains unavailable"
+}

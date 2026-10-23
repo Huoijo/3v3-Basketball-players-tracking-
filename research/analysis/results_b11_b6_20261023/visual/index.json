@@ -1,0 +1,241 @@
+[
+  {
+    "frame": 1,
+    "seconds": 0.0,
+    "path": "visual/frame_0001.jpg",
+    "candidate_ids": [
+      7,
+      5,
+      8
+    ],
+    "decoder_next_frame": 1.0
+  },
+  {
+    "frame": 280,
+    "seconds": 9.30930930930931,
+    "path": "visual/frame_0280.jpg",
+    "candidate_ids": [
+      7,
+      5
+    ],
+    "decoder_next_frame": 280.0
+  },
+  {
+    "frame": 300,
+    "seconds": 9.976643309976645,
+    "path": "visual/frame_0300.jpg",
+    "candidate_ids": [
+      7,
+      5,
+      47
+    ],
+    "decoder_next_frame": 300.0
+  },
+  {
+    "frame": 301,
+    "seconds": 10.01001001001001,
+    "path": "visual/frame_0301.jpg",
+    "candidate_ids": [
+      59,
+      5
+    ],
+    "decoder_next_frame": 301.0
+  },
+  {
+    "frame": 399,
+    "seconds": 13.279946613279947,
+    "path": "visual/frame_0399.jpg",
+    "candidate_ids": [
+      59,
+      5
+    ],
+    "decoder_next_frame": 399.0
+  },
+  {
+    "frame": 408,
+    "seconds": 13.580246913580247,
+    "path": "visual/frame_0408.jpg",
+    "candidate_ids": [
+      5,
+      74
+    ],
+    "decoder_next_frame": 408.0
+  },
+  {
+    "frame": 414,
+    "seconds": 13.780447113780447,
+    "path": "visual/frame_0414.jpg",
+    "candidate_ids": [
+      5,
+      74
+    ],
+    "decoder_next_frame": 414.0
+  },
+  {
+    "frame": 417,
+    "seconds": 13.880547213880547,
+    "path": "visual/frame_0417.jpg",
+    "candidate_ids": [
+      5,
+      74
+    ],
+    "decoder_next_frame": 417.0
+  },
+  {
+    "frame": 430,
+    "seconds": 14.314314314314315,
+    "path": "visual/frame_0430.jpg",
+    "candidate_ids": [
+      5,
+      74
+    ],
+    "decoder_next_frame": 430.0
+  },
+  {
+    "frame": 700,
+    "seconds": 23.323323323323326,
+    "path": "visual/frame_0700.jpg",
+    "candidate_ids": [
+      5
+    ],
+    "decoder_next_frame": 700.0
+  },
+  {
+    "frame": 730,
+    "seconds": 24.324324324324326,
+    "path": "visual/frame_0730.jpg",
+    "candidate_ids": [
+      5
+    ],
+    "decoder_next_frame": 730.0
+  },
+  {
+    "frame": 741,
+    "seconds": 24.691358024691358,
+    "path": "visual/frame_0741.jpg",
+    "candidate_ids": [
+      5
+    ],
+    "decoder_next_frame": 741.0
+  },
+  {
+    "frame": 743,
+    "seconds": 24.758091424758092,
+    "path": "visual/frame_0743.jpg",
+    "candidate_ids": [
+      157,
+      84
+    ],
+    "decoder_next_frame": 743.0
+  },
+  {
+    "frame": 780,
+    "seconds": 25.992659325992662,
+    "path": "visual/frame_0780.jpg",
+    "candidate_ids": [
+      157
+    ],
+    "decoder_next_frame": 780.0
+  },
+  {
+    "frame": 805,
+    "seconds": 26.826826826826828,
+    "path": "visual/frame_0805.jpg",
+    "candidate_ids": [
+      157,
+      84
+    ],
+    "decoder_next_frame": 805.0
+  },
+  {
+    "frame": 820,
+    "seconds": 27.32732732732733,
+    "path": "visual/frame_0820.jpg",
+    "candidate_ids": [
+      172,
+      84
+    ],
+    "decoder_next_frame": 820.0
+  },
+  {
+    "frame": 850,
+    "seconds": 28.32832832832833,
+    "path": "visual/frame_0850.jpg",
+    "candidate_ids": [
+      172,
+      84
+    ],
+    "decoder_next_frame": 850.0
+  },
+  {
+    "frame": 853,
+    "seconds": 28.42842842842843,
+    "path": "visual/frame_0853.jpg",
+    "candidate_ids": [
+      172,
+      179
+    ],
+    "decoder_next_frame": 853.0
+  },
+  {
+    "frame": 890,
+    "seconds": 29.662996329663,
+    "path": "visual/frame_0890.jpg",
+    "candidate_ids": [
+      65
+    ],
+    "decoder_next_frame": 890.0
+  },
+  {
+    "frame": 930,
+    "seconds": 30.997664330997665,
+    "path": "visual/frame_0930.jpg",
+    "candidate_ids": [
+      65
+    ],
+    "decoder_next_frame": 930.0
+  },
+  {
+    "frame": 934,
+    "seconds": 31.13113113113113,
+    "path": "visual/frame_0934.jpg",
+    "candidate_ids": [],
+    "decoder_next_frame": 934.0
+  },
+  {
+    "frame": 939,
+    "seconds": 31.297964631297965,
+    "path": "visual/frame_0939.jpg",
+    "candidate_ids": [
+      198
+    ],
+    "decoder_next_frame": 939.0
+  },
+  {
+    "frame": 950,
+    "seconds": 31.664998331665,
+    "path": "visual/frame_0950.jpg",
+    "candidate_ids": [
+      198
+    ],
+    "decoder_next_frame": 950.0
+  },
+  {
+    "frame": 970,
+    "seconds": 32.332332332332335,
+    "path": "visual/frame_0970.jpg",
+    "candidate_ids": [
+      198
+    ],
+    "decoder_next_frame": 970.0
+  },
+  {
+    "frame": 1118,
+    "seconds": 37.27060393727061,
+    "path": "visual/frame_1118.jpg",
+    "candidate_ids": [
+      198
+    ],
+    "decoder_next_frame": 1118.0
+  }
+]

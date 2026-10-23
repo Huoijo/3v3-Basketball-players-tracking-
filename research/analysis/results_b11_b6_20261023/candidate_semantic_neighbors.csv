@@ -1,0 +1,19 @@
+candidate_tracker_id,direction,candidate_endpoint_frame,neighbor_frame,neighbor_tracker_id,neighbor_semantic,distance_cm,rank,interpretation
+7,after,300,301,40,B6,50.33177793572437,1,Endpoint proximity only; not proof of physical continuity
+7,after,300,301,5,A12,246.54844539647783,2,Endpoint proximity only; not proof of physical continuity
+7,after,300,301,18,B9,410.4886512381085,3,Endpoint proximity only; not proof of physical continuity
+59,before,301,300,5,A12,25.00426146471235,1,Endpoint proximity only; not proof of physical continuity
+59,before,301,300,40,B6,214.21538499032783,2,Endpoint proximity only; not proof of physical continuity
+59,before,301,300,18,B9,300.3439262500291,3,Endpoint proximity only; not proof of physical continuity
+59,after,399,400,5,A12,142.24137717694813,1,Endpoint proximity only; not proof of physical continuity
+59,after,399,400,57,A4,397.93502306294266,2,Endpoint proximity only; not proof of physical continuity
+59,after,399,400,2,A10,450.6581284995612,3,Endpoint proximity only; not proof of physical continuity
+172,before,820,819,84,A12,110.24470346671347,1,Endpoint proximity only; not proof of physical continuity
+172,before,820,819,145,B9,274.5325866447836,2,Endpoint proximity only; not proof of physical continuity
+172,before,820,819,138,A10,414.08646920892335,3,Endpoint proximity only; not proof of physical continuity
+172,after,857,858,179,B11,78.9903256083119,1,Endpoint proximity only; not proof of physical continuity
+172,after,857,858,138,A10,164.98411020628916,2,Endpoint proximity only; not proof of physical continuity
+172,after,857,858,145,B9,275.4251039261629,3,Endpoint proximity only; not proof of physical continuity
+198,before,939,938,139,A4,163.28066921261043,1,Endpoint proximity only; not proof of physical continuity
+198,before,939,938,187,A12,332.37453695149543,2,Endpoint proximity only; not proof of physical continuity
+198,before,939,938,179,B11,653.7067312446725,3,Endpoint proximity only; not proof of physical continuity

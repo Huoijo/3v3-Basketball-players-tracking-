@@ -1,0 +1,92 @@
+[
+  {
+    "package": "easyocr",
+    "version": "1.7.2",
+    "filename": "easyocr-1.7.2-py3-none-any.whl",
+    "sha256": "5be12f9b0e595d443c9c3d10b0542074b50f0ec2d98b141a109cd961fd1c177c"
+  },
+  {
+    "package": "scikit-image",
+    "version": "0.25.2",
+    "filename": "scikit_image-0.25.2-cp312-cp312-macosx_12_0_arm64.whl",
+    "sha256": "483bd8cc10c3d8a7a37fae36dfa5b21e239bd4ee121d91cad1f81bba10cfb0ed"
+  },
+  {
+    "package": "scipy",
+    "version": "1.17.0",
+    "filename": "scipy-1.17.0-cp312-cp312-macosx_14_0_arm64.whl",
+    "sha256": "f3cd947f20fe17013d401b64e857c6b2da83cae567adbb75b9dcba865abc66d8"
+  },
+  {
+    "package": "pandas",
+    "version": "2.3.3",
+    "filename": "pandas-2.3.3-cp312-cp312-macosx_11_0_arm64.whl",
+    "sha256": "3fd2f887589c7aa868e02632612ba39acb0b8948faf5cc58f0850e165bd46f35"
+  },
+  {
+    "package": "ninja",
+    "version": "1.13.2",
+    "filename": "ninja-1.13.2-py3-none-macosx_10_9_universal2.whl",
+    "sha256": "fd82e26c0706ad4ab88e5fdd26f3fab0a987a90f810160f6c322e752c6af298b"
+  },
+  {
+    "package": "pyclipper",
+    "version": "1.4.0",
+    "filename": "pyclipper-1.4.0-cp312-cp312-macosx_10_13_universal2.whl",
+    "sha256": "222ac96c8b8281b53d695b9c4fedc674f56d6d4320ad23f1bdbd168f4e316140"
+  },
+  {
+    "package": "imageio",
+    "version": "2.38.1",
+    "filename": "imageio-2.38.1-py3-none-any.whl",
+    "sha256": "36d23eb7423d2fb63f637098758edb3d2df3687f7125e0a5ce8596572022dcf9"
+  },
+  {
+    "package": "lazy-loader",
+    "version": "0.6",
+    "filename": "lazy_loader-0.6-py3-none-any.whl",
+    "sha256": "77253be3391b06124a0e16105bd663b6c54470af1a9ca8e1cf026f38d58ed056"
+  },
+  {
+    "package": "python-dateutil",
+    "version": "3.0.0",
+    "filename": "python_dateutil-3.0.0-py2.py3-none-any.whl",
+    "sha256": "3c79630202e4152c6add678446984236efe4f57e84d8e892aab0637bab82e9fd"
+  },
+  {
+    "package": "tifffile",
+    "version": "2026.10.15",
+    "filename": "tifffile-2026.10.15-py3-none-any.whl",
+    "sha256": "3dcf6c56731a45c1f85c81e90dad922b0a380a2d639e77f71207e010f8ef0f7b"
+  },
+  {
+    "package": "tzdata",
+    "version": "2026.5",
+    "filename": "tzdata-2026.5-py2.py3-none-any.whl",
+    "sha256": "b683bd1b6659ddcd810ff02ad09ba821d4bf1065072805063eb35c49617905ac"
+  },
+  {
+    "package": "six",
+    "version": "1.17.0",
+    "filename": "six-1.17.0-py2.py3-none-any.whl",
+    "sha256": "4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"
+  },
+  {
+    "package": "pytz",
+    "version": "2026.5",
+    "filename": "pytz-2026.5-py2.py3-none-any.whl",
+    "sha256": "e658af3757f9e26a9d25dd2aff38335acd92bc9104f890a894b2c1ba28311b03"
+  },
+  {
+    "package": "python-bidi",
+    "version": "0.6.12",
+    "filename": "python_bidi-0.6.12-cp312-cp312-macosx_11_0_arm64.whl",
+    "sha256": "ad46555d7d089c51e6b700d615d7eb3ee3dfa9eb792c3620fc94124edce4d8c7"
+  },
+  {
+    "package": "Shapely",
+    "version": "2.2.0",
+    "filename": "shapely-2.2.0-cp312-cp312-macosx_11_0_arm64.whl",
+    "sha256": "c36ccbff5c3374c349c370bfdac22c7676b268b4a707c98e9031f498965aa02d"
+  }
+]

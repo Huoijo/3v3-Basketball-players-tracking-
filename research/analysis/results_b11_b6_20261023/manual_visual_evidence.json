@@ -1,0 +1,277 @@
+[
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 1,
+    "video_seconds": 0.0,
+    "tracker_ids": [
+      5
+    ],
+    "images": [
+      "visual/crop_f0001_t5.jpg"
+    ],
+    "observation": "Purple number 12 is legible in T5.",
+    "limitation": "Direct uniform/number observation."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 280,
+    "video_seconds": 9.30930930930931,
+    "tracker_ids": [
+      7
+    ],
+    "images": [
+      "visual/crop_f0280_t7.jpg"
+    ],
+    "observation": "T7 contains a green player near purple 12; digits are partly occluded.",
+    "limitation": "B11 correspondence also relies on GT geometry; not all T7 rows are annotated."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 300,
+    "video_seconds": 9.976643309976645,
+    "tracker_ids": [
+      7,
+      5
+    ],
+    "images": [
+      "visual/frame_0300.jpg",
+      "visual/crop_f0300_t7.jpg"
+    ],
+    "observation": "T7 terminal box overlaps purple/green bodies, including a purple 4.",
+    "limitation": "T7 endpoint is not a clean physical B11 foot point; nearest B6 handoff is unsafe."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 301,
+    "video_seconds": 10.01001001001001,
+    "tracker_ids": [
+      59
+    ],
+    "images": [
+      "visual/crop_f0301_t59.jpg"
+    ],
+    "observation": "A green player is inside T59 among nearby purple players.",
+    "limitation": "Numeral not independently read in this crop; B11-related correspondence uses trajectory evidence too."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 399,
+    "video_seconds": 13.279946613279947,
+    "tracker_ids": [
+      59,
+      5
+    ],
+    "images": [
+      "visual/frame_0399.jpg",
+      "visual/crop_f0399_t59.jpg"
+    ],
+    "observation": "T59 includes a partially occluded green player; T5 includes purple 12.",
+    "limitation": "Sample supports retained player observations; no per-frame OCR output is inferred."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 408,
+    "video_seconds": 13.580246913580247,
+    "tracker_ids": [
+      5,
+      74
+    ],
+    "images": [
+      "visual/frame_0408.jpg"
+    ],
+    "observation": "T5/T74 boxes overlap the purple-12/green-11 crossing region.",
+    "limitation": "Crowding prevents reliable identity assignment by nearest court coordinate alone."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 414,
+    "video_seconds": 13.780447113780447,
+    "tracker_ids": [
+      5,
+      74
+    ],
+    "images": [
+      "visual/frame_0414.jpg"
+    ],
+    "observation": "The two raw boxes still overlap purple 12 and a green player.",
+    "limitation": "Used with frame417 and numerical trajectory evidence to bracket association contamination."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 417,
+    "video_seconds": 13.880547213880547,
+    "tracker_ids": [
+      5,
+      74
+    ],
+    "images": [
+      "visual/frame_0417.jpg"
+    ],
+    "observation": "Boxes overlap as green and purple players separate.",
+    "limitation": "Not a formally measured ID-switch timestamp."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 430,
+    "video_seconds": 14.314314314314315,
+    "tracker_ids": [
+      5,
+      74
+    ],
+    "images": [
+      "visual/crop_f0430_t5.jpg",
+      "visual/crop_f0430_t74.jpg"
+    ],
+    "observation": "T5 clearly contains green jersey 11; T74 clearly contains purple jersey 12.",
+    "limitation": "Both carry A12 in saved pipeline stdout; demonstrates mixed physical content in T5."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 700,
+    "video_seconds": 23.323323323323326,
+    "tracker_ids": [
+      5,
+      84
+    ],
+    "images": [
+      "visual/frame_0700.jpg"
+    ],
+    "observation": "T5 contains green 11 while T84 contains purple 12.",
+    "limitation": "Strong sample-level association/semantic mismatch; existing colored labels are predictions."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 741,
+    "video_seconds": 24.691358024691358,
+    "tracker_ids": [
+      5
+    ],
+    "images": [
+      "visual/crop_f0741_t5.jpg"
+    ],
+    "observation": "T5 box overlaps multiple bodies during the crossing.",
+    "limitation": "Projected bottom center is not a reliable independent B11 location at this instant."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 743,
+    "video_seconds": 24.758091424758092,
+    "tracker_ids": [
+      157
+    ],
+    "images": [
+      "visual/crop_f0743_t157.jpg"
+    ],
+    "observation": "New T157 box contains the green-11 player.",
+    "limitation": "Does not imply OCR read 11 on frame743; score is whole-track aggregate."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 820,
+    "video_seconds": 27.32732732732733,
+    "tracker_ids": [
+      172,
+      84
+    ],
+    "images": [
+      "visual/frame_0820.jpg",
+      "visual/crop_f0820_t172.jpg"
+    ],
+    "observation": "T172 includes green 11 immediately in front of purple 12; nearby boxes overlap.",
+    "limitation": "Nearest-GT identity counts are ambiguous in this crossing."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 850,
+    "video_seconds": 28.32832832832833,
+    "tracker_ids": [
+      172
+    ],
+    "images": [
+      "visual/crop_f0850_t172.jpg"
+    ],
+    "observation": "Green 11 is visible with purple player behind inside/near T172.",
+    "limitation": "Supports a B11-related fragment, not a pure identity label for every row."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 853,
+    "video_seconds": 28.42842842842843,
+    "tracker_ids": [
+      172,
+      179
+    ],
+    "images": [
+      "visual/frame_0853.jpg"
+    ],
+    "observation": "T172 and T179 overlap the green/purple crossing area.",
+    "limitation": "Supports spatial continuity with subsequent B11 observations; overlapping tracks are not merged here."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 930,
+    "video_seconds": 30.997664330997665,
+    "tracker_ids": [
+      65,
+      139
+    ],
+    "images": [
+      "visual/crop_f0930_t65.jpg"
+    ],
+    "observation": "Green jersey 6 is visible behind/overlapping purple 4 in T65.",
+    "limitation": "Last retained B6 semantic frame; visibility alone does not establish a clean detector box next frame."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 934,
+    "video_seconds": 31.13113113113113,
+    "tracker_ids": [
+      139
+    ],
+    "images": [
+      "visual/frame_0934.jpg"
+    ],
+    "observation": "Expected B6 area is obscured by/overlaps purple 4.",
+    "limitation": "No clean B6 body/number established; cannot distinguish detector miss from tracker rejection."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 939,
+    "video_seconds": 31.297964631297965,
+    "tracker_ids": [
+      198,
+      139
+    ],
+    "images": [
+      "visual/crop_f0939_t198.jpg"
+    ],
+    "observation": "T198 contains a green player with readable jersey 6 near purple 4.",
+    "limitation": "Strong support that recovered T198 is B6-related."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 970,
+    "video_seconds": 32.332332332332335,
+    "tracker_ids": [
+      198
+    ],
+    "images": [
+      "visual/frame_0970.jpg"
+    ],
+    "observation": "T198 contains a green player shooting near the basket while prediction minimap omits B6.",
+    "limitation": "Number is not separately read here; continuity uses prior jersey and trajectory evidence."
+  },
+  {
+    "category": "MANUAL VISUAL EVIDENCE",
+    "frame_id": 1118,
+    "video_seconds": 37.27060393727061,
+    "tracker_ids": [
+      198
+    ],
+    "images": [
+      "visual/crop_f1118_t198.jpg"
+    ],
+    "observation": "A green player remains boxed at the final frame in profile.",
+    "limitation": "No claim of a legible numeral in this image or exhaustive track-purity review."
+  }
+]

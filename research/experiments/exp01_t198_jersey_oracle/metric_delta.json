@@ -1,0 +1,19 @@
+{
+  "exp1_minus_frozen_baseline": {
+    "TI-HOTA": 0.017739300884318854,
+    "TI-DetA": 0.017801020223921937,
+    "TI-AssA": 0.01767834522890943,
+    "TI-TP": 152.0,
+    "TI-FP": 36.0,
+    "TI-FN": -152.0
+  },
+  "exp1_minus_local_replay": {
+    "TI-HOTA": 0.01717148314473249,
+    "TI-DetA": 0.017210590756882582,
+    "TI-AssA": 0.017133057793641826,
+    "TI-TP": 149.31578947368416,
+    "TI-FP": 38.684210526315724,
+    "TI-FN": -149.31578947368416
+  },
+  "interpretation": "Includes documented indirect global-sort tie interactions; not evidence that OCR can achieve oracle labels"
+}

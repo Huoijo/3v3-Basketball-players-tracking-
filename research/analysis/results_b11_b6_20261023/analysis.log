@@ -1,0 +1,61 @@
+Image coordinates:
+[[2698.841 1172.363]
+ [3749.903 1726.613]
+ [ 875.716 1237.863]
+ [ 108.424 1970.321]]
+
+Court coordinates [cm]:
+[[   0.    0.]
+ [   0. 1105.]
+ [1505.    0.]
+ [1505. 1105.]]
+
+Homography:
+[[ 8.67168311e-01 -1.64447031e+00 -4.12433240e+02]
+ [-1.33168361e-01 -3.70660422e+00  4.70488602e+03]
+ [-1.02627370e-05 -1.70701600e-03  1.00000000e+00]]
+
+Court range [cm]: x=[0.0, 1505.0], y=[0.0, 1105.0]
+
+FINAL COVERAGE
+identity  first_frame  last_frame  final_rows  missing_frames missing_ranges  surviving_observed_rows  interpolated_rows
+     A10            1        1118        1118               0             []                     1084                 34
+     A12            1        1118        1118               0             []                     1082                 36
+      A4            1        1118        1118               0             []                      995                123
+     B11          743        1118         376             742     [[1, 742]]                      332                 44
+      B6            1         930         930             188  [[931, 1118]]                      902                 28
+      B9            1        1118        1118               0             []                     1057                 61
+
+LOSSES
+          scope              stage  rows  tracks
+         global        raw_tracker 13890    37.0
+         global        after_court  6489    23.0
+         global      team_assigned  6489    23.0
+         global    jersey_assigned  5898    19.0
+         global  roster_compatible  5818    18.0
+         global     semantic_dedup  5452    18.0
+         global interpolated_final  5778     NaN
+inferred_team_A        after_court  3599    11.0
+inferred_team_A      team_assigned  3599    11.0
+inferred_team_A    jersey_assigned  3599    11.0
+inferred_team_A  roster_compatible  3519    10.0
+inferred_team_A     semantic_dedup  3161    10.0
+inferred_team_A interpolated_final  3354     NaN
+inferred_team_B        after_court  2890    12.0
+inferred_team_B      team_assigned  2890    12.0
+inferred_team_B    jersey_assigned  2299     8.0
+inferred_team_B  roster_compatible  2299     8.0
+inferred_team_B     semantic_dedup  2291     8.0
+inferred_team_B interpolated_final  2424     NaN
+
+MISSING-WINDOW GEOMETRY DIAGNOSTICS
+gt_identity  nearest_stage_category 
+B11          jersey_unavailable         386
+             no_raw_within_100cm         16
+             roster_incompatible          2
+             wrong_semantic_identity    338
+B6           jersey_unavailable         163
+             no_raw_within_100cm         25
+
+ARTIFACT-CONSISTENT RECONSTRUCTION: max coordinate error vs rounded CSV 4.999979637432261e-06
+Equal-confidence groups: 21 ; local sort differs at 9 rows. Those observation winners were inferred from saved coordinates, not independently reproduced.

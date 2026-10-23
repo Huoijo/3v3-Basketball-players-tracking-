@@ -1,0 +1,22 @@
+frame_id,semantic_identity,max_confidence,local_sort_tracker_id,artifact_consistent_tracker_id,tied_trackers,matching_coordinate_candidates,local_choice_differs,provenance
+425,A12,0.74,74,5,"[5, 74]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+497,A12,0.76,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+522,A12,0.84,5,84,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+545,A12,0.73,84,84,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+553,A12,0.77,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+565,A12,0.84,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+570,A12,0.84,84,5,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+571,A12,0.87,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+577,A12,0.87,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+586,A12,0.86,5,84,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+587,A12,0.86,84,5,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+603,A12,0.87,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+606,A12,0.86,84,84,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+608,A12,0.86,5,84,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+610,A12,0.85,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+616,A10,0.76,138,2,"[138, 2]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+621,A12,0.86,84,5,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+624,A12,0.83,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+661,A12,0.81,84,5,"[5, 84]",1,True,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+669,A12,0.83,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay
+711,A12,0.83,5,5,"[5, 84]",1,False,Saved prediction coordinates disambiguate equal-confidence observations; not independent tie replay

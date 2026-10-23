@@ -1,0 +1,50 @@
+[
+  {
+    "identity": "A4",
+    "unchanged": 1118,
+    "added": 0,
+    "removed": 0,
+    "coordinates_changed": 0,
+    "max_common_coordinate_displacement_cm": 0.0
+  },
+  {
+    "identity": "A10",
+    "unchanged": 1117,
+    "added": 0,
+    "removed": 0,
+    "coordinates_changed": 1,
+    "max_common_coordinate_displacement_cm": 164.4631438393934
+  },
+  {
+    "identity": "A12",
+    "unchanged": 1109,
+    "added": 0,
+    "removed": 0,
+    "coordinates_changed": 9,
+    "max_common_coordinate_displacement_cm": 466.62225815904884
+  },
+  {
+    "identity": "B6",
+    "unchanged": 930,
+    "added": 188,
+    "removed": 0,
+    "coordinates_changed": 0,
+    "max_common_coordinate_displacement_cm": 0.0
+  },
+  {
+    "identity": "B9",
+    "unchanged": 1118,
+    "added": 0,
+    "removed": 0,
+    "coordinates_changed": 0,
+    "max_common_coordinate_displacement_cm": 0.0
+  },
+  {
+    "identity": "B11",
+    "unchanged": 376,
+    "added": 0,
+    "removed": 0,
+    "coordinates_changed": 0,
+    "max_common_coordinate_displacement_cm": 0.0
+  }
+]

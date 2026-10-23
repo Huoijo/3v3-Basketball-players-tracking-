@@ -1,0 +1,25 @@
+{
+  "rows": 188,
+  "GT_correspondences": 188,
+  "observed": 175,
+  "interpolated": 13,
+  "median_error_cm": 19.912195804144783,
+  "max_error_cm": 373.0517362084315,
+  "within_100cm": 172,
+  "over_100cm": 16,
+  "over_200cm": 9,
+  "over_300cm": 3,
+  "semantic_key_collisions": 0,
+  "by_origin": {
+    "interpolated": {
+      "rows": 13,
+      "median_error_cm": 29.40531008670717,
+      "within100": 9
+    },
+    "observed_T198": {
+      "rows": 175,
+      "median_error_cm": 19.145270746134674,
+      "within100": 163
+    }
+  }
+}

@@ -1,0 +1,1 @@
+# 11. Create GT and prediction minimaps

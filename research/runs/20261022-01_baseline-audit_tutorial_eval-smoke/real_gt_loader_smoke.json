@@ -1,0 +1,38 @@
+{
+  "label": "Real GT first 3 frames with deliberately empty predictions; NOT baseline evaluation",
+  "frame_ids": [
+    1,
+    2,
+    3
+  ],
+  "tau_cm": 100.0,
+  "metrics": {
+    "TI-HOTA": 0.0,
+    "TI-HOTA_alphas": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "TI-DetA": 0.0,
+    "TI-AssA": 0.0,
+    "TI-TP": 0.0,
+    "TI-FP": 0.0,
+    "TI-FN": 18.0
+  }
+}

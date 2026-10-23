@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "preregistered_before_execution": true,
+  "all_hypotheses_pass": true,
+  "frozen_result_and_original_notebook_hashes_unchanged": true,
+  "prior_causal_analysis_artifacts_unchanged": true,
+  "downstream_and_evaluator_source_verbatim": true,
+  "only_jersey_mapping_key_198_changed": true,
+  "B6_original_rows_exactly_unchanged": true,
+  "A4_B9_B11_exactly_unchanged_vs_frozen": true,
+  "all_non_B6_coordinates_unchanged": false,
+  "caveat": "13 A12 coordinate rows change vs local replay through unchanged global-sort ties; 1 A10 + 9 A12 differ vs frozen CSV.",
+  "recovered_rows": 188,
+  "observed": 175,
+  "interpolated": 13,
+  "CSV_duplicates": 0,
+  "links": "PASS",
+  "canvas": {
+    "path": "/Users/thuong/.cursor/projects/empty-window/canvases/trackid3x3-exp01-t198-jersey-oracle.canvas.tsx",
+    "sha256": "e571890272266330f247af47330771c6202301b8d93116044e6754de7a29babc",
+    "check": "Public SDK exports/props and data checked; no runtime build sidecar present"
+  },
+  "no_second_experiment_or_production_fix": true
+}

@@ -1,0 +1,14 @@
+{
+  "path": "research/experiments/exp01b_auto_jersey_recovery/source/IMG_0104_1.MOV",
+  "sha256": "c4bff5fd4db2804996aae21e798b29e9f535b0f3c9a55db27b76a8bdeac77340",
+  "size": 121340402,
+  "drive_file_id": "1jK-3_OLWkBw8vk4rK27TB4NP2eeC3N-x",
+  "width": 3840,
+  "height": 2160,
+  "fps": 29.97002997002997,
+  "declared_frames": 1118,
+  "decoded_frames": 1118,
+  "observations_reconstructed": 6489,
+  "selected_unique_crops": 1397,
+  "inference_source": "Original MOV; no annotated-video pixels"
+}

@@ -1,0 +1,28 @@
+# Model weights / downloaded models
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Download archives / partial downloads
+*.zip
+*.part
+
+# Videos
+*.MOV
+*.mov
+*.mp4
+*.avi
+*.mkv
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# macOS
+.DS_Store

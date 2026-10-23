@@ -1,0 +1,16 @@
+{
+  "inputs": {
+    "results/predictions.csv": "fa23011ad1cc5ecc4629e23c6908da734bb8ef7a688781fec991d17da2ab4aac",
+    "results/filtered_mot.txt": "c111434b13bf28533671988e2127c564033166a52aa89d39379c62755e2c925f",
+    "results/IMG_0104_1_with_minimap.mp4": "2a759ea04888940cbb28d101d5e0c01e8325cd74241b68d51bed9bd6dffeae2f",
+    "results/transformed_court.txt": "91bbf27b04b6c541cdeee3b222456ff50ab09af4c26ba15d4225f820396f5809",
+    "results/mot_results.txt": "aac2197dda2e8553dc3dbfc7a3a14dc3903d0cabc5af27b2932507faea32aa88",
+    "TrackID3x3_Challenge_Tutorial.ipynb": "33da120728e1ef5884ef001a8c30da3b0c183c165626b91c1075f1be7e9c1c00",
+    "research/runs/20261022-01_baseline-audit_tutorial_eval-smoke/IMG_0104_1_tutorial_challenge.csv": "a86beb68f5e8351eea3b65b126db2a167b4c2f2dc805715818951c6760f4f2a2",
+    "research/analysis/results_b11_b6_20261023/source/executed_colab.ipynb": "b4f3987c7252bf794dde6df60688dbf623ae8eff9dcfa7825ab1b9a904af6a19",
+    "research/analysis/results_b11_b6_20261023/source/recognition_stdout.txt": "44a84d355a725567bba1c07022c05b3f2605d6521127b16a9e2202db88c21380",
+    "research/analysis/results_b11_b6_20261023/homography_reconstructed.json": "5046b98c13216884c6e031113c3e058b6d46289de48d985438560fc54f7dc84a"
+  },
+  "script_sha256": "54c0c6768b289c045c02f06bcf7f059336d09e31b4ce28bf662656b90236163f",
+  "preregistration_sha256": "8627b9c5a1086cab83179155599050775864cefd629ce2ecb63ad2c72201457c"
+}

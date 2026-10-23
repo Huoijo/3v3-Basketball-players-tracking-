@@ -1,0 +1,18 @@
+[
+  {
+    "filename": "craft_mlt_25k.pth",
+    "url": "https://huggingface.co/xiaoyao9184/easyocr/resolve/7fcca5cbab94e60f54b1c9c930f162cc24bf43b6/craft_mlt_25k.pth",
+    "size": 83152330,
+    "official_md5": "2f8227d2def4037cdb3b34389dcf9ec1",
+    "verified_md5": "2f8227d2def4037cdb3b34389dcf9ec1",
+    "sha256": "4a5efbfb48b4081100544e75e1e2b57f8de3d84f213004b14b85fd4b3748db17"
+  },
+  {
+    "filename": "english_g2.pth",
+    "url": "https://huggingface.co/xiaoyao9184/easyocr/resolve/17cdb173ef73b32eb6e9d1270f33b30154b03908/english_g2.pth",
+    "size": 15143997,
+    "official_md5": "5864788e1821be9e454ec108d61b887d",
+    "verified_md5": "5864788e1821be9e454ec108d61b887d",
+    "sha256": "e2272681d9d67a04e2dff396b6e95077bc19001f8f6d3593c307b9852e1c29e8"
+  }
+]
